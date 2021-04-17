@@ -70,4 +70,34 @@ h1{
 .item{
     padding: 0.5rem;
     margin-bottom: 1.5rem;
+    border-bottom: 4px solid palegreen;
+}
+
+.item_input{
+    background: none;
+    outline: none;
+    color: #000000;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Nunito' sans-serif;
+    background:none;
+    outline: none;
+    color: none;
+    color:#400040;
+    border: none;
+}
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Nunito' sans-serif;
+    background:none;
+    outline: none;
+    color:#400080;
+    border: none;
 }
