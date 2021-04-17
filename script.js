@@ -17,7 +17,8 @@ createDiv(itemName){
     input.classList.add('item_input');
     input.type = "text";
 
-    
+    let itemBox = document.createElement('div');
+    itemBox.classList.add('item');
 
     let editButton = document.createElement('button');
     editButton.classList.add('editButton');
@@ -25,7 +26,14 @@ createDiv(itemName){
     let removeButton = document.createElement('button');
     removeButton.classList.add('removeButton')
 
+    container.appendChild(itemBox);
+
+    itemBox.appendChild(input);
+    itemBox.appendChild(editButton);
+    itemBox.appendChild(removeButton);
+
+ }
 
 }
 
-}
+new item("Atividade Fisica")
