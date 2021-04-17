@@ -1,103 +1,106 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     height: 100%;
-    background-color: #c0c0c0;
+    background-color:#aa8db6;
+    box-sizing: border-box;
 }
 
-h1{
-    font-size: 3rem;
-    font-weight: 50;
-    margin: 1rem 0 3rem;
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Nunito', sans-serif;
-}
-.styling{
-    font-weight:800 ;
-    color: purple;
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+    font-family: 'Playfair Display', serif;
 }
 
-.input_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.title{
+	color: purple;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
-.input_div  .input{
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
     padding: 0.5rem 1rem;
-    height: 48px;
     outline: none;
     border: none;
-    background-color: aliceblue;
-    width: 450px; 
-    font-size: 1.15rem;
-    margin: 0.25rem;
-    border-radius: 25px;
-}
-
-.addButton{
     height: 50px;
-    width: 50px;
     border-radius: 25px;
-    outline: none;
-    border: none;
-    background-color:antiquewhite;
-    color: rgb(11, 66, 66);
+    width: 350px;
     margin: 0.25rem;
-    background-color:#8000ff;
-    cursor: pointer;
+    transition: .5s;
+    font-size: 1.15rem;
 }
 
-.addButton:hover{
-    opacity: 0.7;
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(123, 7, 123);
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
 }
 
 .item{
-    padding: 0.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 4px solid palegreen;
+	padding: 0.5rem;
+	border-bottom: 4px solid #c0c0c0;
+	margin-bottom: 1.5rem;
 }
 
 .item_input{
-    background: none;
-    outline: none;
-    color: #000000;
-    border: none;
-    width: 350px;
-    font-size: 1.4rem;
+	background: none;
+	outline: none;
+	border: none;
+	color: black;
+	font-size: 1.4rem;
+	width: 245px;
 }
 
-.editButton{
-    font-size: 1.4rem;
-    margin: 0 0.5rem;
-    font-family: 'Nunito' sans-serif;
-    background:none;
-    outline: none;
-    color: none;
-    color:#400040;
-    border: none;
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: #804040;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
 }
-.removeButton{
-    font-size: 1.4rem;
-    margin: 0 0.5rem;
-    font-family: 'Nunito' sans-serif;
-    background:none;
-    outline: none;
-    color:#400080;
-    border: none;
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #800000;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
 }
